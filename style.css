@@ -1,0 +1,108 @@
+@import url('https://fonts;googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+  font-family: 'Roboto', monospace;
+  min-height: 854px;
+  background-image: url('https://www.alura.com.br/assets/img/imersoes/dev-2021/dia-07-super-trunfo-bg.png');
+  background-color: #000000;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  padding-bottom: 20vh;
+  color: #fff;
+}
+
+
+.container {
+  background: #ECF4FF;
+  color: #1C1C1C;
+  margin: 64px;
+  border-radius: 20px;
+  box-shadow: 6px 6px 6px #0E1D2F;
+  padding: 64px;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+}
+
+.perfil {
+  display: flex;
+}
+
+.perfil-foto {
+  border-radius: 50%;
+  max-height: 100px;
+  box-shadow: 6px 6px 6px #0E1D2F;
+}
+
+.title {
+  margin: 16px;
+}
+
+.title h1 {
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.title h3 {
+  font-weight: 400;
+}
+
+.tema button {
+  align-self: flex-end;
+  font-size: 20px;
+  font-weight: 400;
+  padding: 8px 16px;
+  background: #ecf4ff;
+  border-radius: 10px;
+}
+
+.projetos {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(230.65deg, #499cfe, 24.49%, #9cc8fc 83.19%);
+  margin-top: 32px;
+  padding: 32px;
+  box-shadow: 6px 6px 6px rgba(16, 16, 16, 0.42);
+  border-radius: 20px;
+}
+
+.projetos-titulo {
+  list-style: none;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.projetos li {
+  list-style-type: none;
+  font-weight: 100;
+  font-size: 20px;
+  line-height: 50px;
+}
+
+.projetos li a {
+  color: #1c1c1c;
+  text-decoration: none;
+}
+
+.dark {
+  background: linear-gradient(236.85deg, #375B86 27.26%, #6B87A9 96.03%);
+}
+
+.dark .container {
+  background-color: #333439;
+  color: #f6f6f6;
+}
+
+.dark .projetos {
+  color: #1c1c1c;
+}
+
+.dark .tema button {
+  background-color: #1c1c1c;
+  color: #f6f6f6;
+  border: solid 2px #f7f7f7;
+}
+
